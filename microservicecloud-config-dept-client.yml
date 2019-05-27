@@ -40,8 +40,8 @@ eureka:
 info:
   app.name: jungle-microservicecloud-springcloudconfig01
   company.name: www.jungle.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
 
 ---
 server:
@@ -79,5 +79,5 @@ eureka:
 info:
   app.name: jungle-microservicecloud-springcloudconfig02
   company.name: www.jungle.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
